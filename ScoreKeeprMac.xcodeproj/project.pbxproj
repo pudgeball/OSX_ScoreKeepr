@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE37A2741655508F00590357 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37A2721655507600590357 /* Server.m */; };
+		DEC9DDB6166CE10F0074908C /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9DDB5166CE10F0074908C /* Match.m */; };
+		DEC9DDBA166CE1510074908C /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9DDB9166CE1510074908C /* Team.m */; };
+		DEDC63B7165167A600C071EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC63B6165167A600C071EF /* Cocoa.framework */; };
+		DEDC63C1165167A600C071EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDC63BF165167A600C071EF /* InfoPlist.strings */; };
+		DEDC63C3165167A600C071EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC63C2165167A600C071EF /* main.m */; };
+		DEDC63C7165167A600C071EF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DEDC63C5165167A600C071EF /* Credits.rtf */; };
+		DEDC63CA165167A600C071EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC63C9165167A600C071EF /* AppDelegate.m */; };
+		DEDC63CD165167A700C071EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDC63CB165167A700C071EF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE37A2711655507600590357 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Server.h; path = ScoreKeeprMac/Server.h; sourceTree = "<group>"; };
+		DE37A2721655507600590357 /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = ScoreKeeprMac/Server.m; sourceTree = "<group>"; };
+		DEC9DDB4166CE10F0074908C /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		DEC9DDB5166CE10F0074908C /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		DEC9DDB8166CE1510074908C /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		DEC9DDB9166CE1510074908C /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		DEDC63B2165167A600C071EF /* ScoreKeeprMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeprMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDC63B6165167A600C071EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DEDC63B9165167A600C071EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DEDC63BA165167A600C071EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DEDC63BB165167A600C071EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEDC63BE165167A600C071EF /* ScoreKeeprMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreKeeprMac-Info.plist"; sourceTree = "<group>"; };
+		DEDC63C0165167A600C071EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEDC63C2165167A600C071EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEDC63C4165167A600C071EF /* ScoreKeeprMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreKeeprMac-Prefix.pch"; sourceTree = "<group>"; };
+		DEDC63C6165167A600C071EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DEDC63C8165167A600C071EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEDC63C9165167A600C071EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEDC63CC165167A700C071EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDC63AF165167A600C071EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC63B7165167A600C071EF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDC63A7165167A600C071EF = {
+			isa = PBXGroup;
+			children = (
+				DE37A2711655507600590357 /* Server.h */,
+				DE37A2721655507600590357 /* Server.m */,
+				DEDC63BC165167A600C071EF /* ScoreKeeprMac */,
+				DEDC63B5165167A600C071EF /* Frameworks */,
+				DEDC63B3165167A600C071EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDC63B3165167A600C071EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC63B2165167A600C071EF /* ScoreKeeprMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDC63B5165167A600C071EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC63B6165167A600C071EF /* Cocoa.framework */,
+				DEDC63B8165167A600C071EF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDC63B8165167A600C071EF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC63B9165167A600C071EF /* AppKit.framework */,
+				DEDC63BA165167A600C071EF /* CoreData.framework */,
+				DEDC63BB165167A600C071EF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DEDC63BC165167A600C071EF /* ScoreKeeprMac */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC63C8165167A600C071EF /* AppDelegate.h */,
+				DEDC63C9165167A600C071EF /* AppDelegate.m */,
+				DEDC63CB165167A700C071EF /* MainMenu.xib */,
+				DEDC63BD165167A600C071EF /* Supporting Files */,
+				DEC9DDB4166CE10F0074908C /* Match.h */,
+				DEC9DDB5166CE10F0074908C /* Match.m */,
+				DEC9DDB8166CE1510074908C /* Team.h */,
+				DEC9DDB9166CE1510074908C /* Team.m */,
+			);
+			path = ScoreKeeprMac;
+			sourceTree = "<group>";
+		};
+		DEDC63BD165167A600C071EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC63BE165167A600C071EF /* ScoreKeeprMac-Info.plist */,
+				DEDC63BF165167A600C071EF /* InfoPlist.strings */,
+				DEDC63C2165167A600C071EF /* main.m */,
+				DEDC63C4165167A600C071EF /* ScoreKeeprMac-Prefix.pch */,
+				DEDC63C5165167A600C071EF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDC63B1165167A600C071EF /* ScoreKeeprMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDC63D0165167A700C071EF /* Build configuration list for PBXNativeTarget "ScoreKeeprMac" */;
+			buildPhases = (
+				DEDC63AE165167A600C071EF /* Sources */,
+				DEDC63AF165167A600C071EF /* Frameworks */,
+				DEDC63B0165167A600C071EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreKeeprMac;
+			productName = ScoreKeeprMac;
+			productReference = DEDC63B2165167A600C071EF /* ScoreKeeprMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDC63A9165167A600C071EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "RND Consulting";
+			};
+			buildConfigurationList = DEDC63AC165167A600C071EF /* Build configuration list for PBXProject "ScoreKeeprMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEDC63A7165167A600C071EF;
+			productRefGroup = DEDC63B3165167A600C071EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDC63B1165167A600C071EF /* ScoreKeeprMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDC63B0165167A600C071EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC63C1165167A600C071EF /* InfoPlist.strings in Resources */,
+				DEDC63C7165167A600C071EF /* Credits.rtf in Resources */,
+				DEDC63CD165167A700C071EF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDC63AE165167A600C071EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC63C3165167A600C071EF /* main.m in Sources */,
+				DEDC63CA165167A600C071EF /* AppDelegate.m in Sources */,
+				DE37A2741655508F00590357 /* Server.m in Sources */,
+				DEC9DDB6166CE10F0074908C /* Match.m in Sources */,
+				DEC9DDBA166CE1510074908C /* Team.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEDC63BF165167A600C071EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDC63C0165167A600C071EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEDC63C5165167A600C071EF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDC63C6165167A600C071EF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DEDC63CB165167A700C071EF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDC63CC165167A700C071EF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDC63CE165167A700C071EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEDC63CF165167A700C071EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEDC63D1165167A700C071EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKeeprMac/ScoreKeeprMac-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKeeprMac/ScoreKeeprMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEDC63D2165167A700C071EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKeeprMac/ScoreKeeprMac-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKeeprMac/ScoreKeeprMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDC63AC165167A600C071EF /* Build configuration list for PBXProject "ScoreKeeprMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC63CE165167A700C071EF /* Debug */,
+				DEDC63CF165167A700C071EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDC63D0165167A700C071EF /* Build configuration list for PBXNativeTarget "ScoreKeeprMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC63D1165167A700C071EF /* Debug */,
+				DEDC63D2165167A700C071EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDC63A9165167A600C071EF /* Project object */;
+}
