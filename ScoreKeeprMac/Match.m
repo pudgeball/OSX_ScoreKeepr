@@ -10,21 +10,11 @@
 #import "Team.h"
 
 @interface Match()
-
 - (NSNumber *)calculateTeamScore:(Team *)team;
-
 @end
 
+
 @implementation Match
-
-//Score values
-//#define AUTONOMOUS      15
-//#define GREEN_BALL_OVER  5
-//#define GREEN_BALL       1
-//#define FOOTBALL        10
-//#define BASKET_BALL     10
-//NSNumber *const AUTONOMOUS = [NSNumber numberWithInt:15];
-
 
 - (id)initWithMatchNumber:(NSString *)matchNumber
 {

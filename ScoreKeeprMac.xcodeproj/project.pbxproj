@@ -52,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE1A85AD166EA88100F56B39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEC9DDB4166CE10F0074908C /* Match.h */,
+				DEC9DDB5166CE10F0074908C /* Match.m */,
+				DEC9DDB8166CE1510074908C /* Team.h */,
+				DEC9DDB9166CE1510074908C /* Team.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DEDC63A7165167A600C071EF = {
 			isa = PBXGroup;
 			children = (
@@ -93,14 +104,11 @@
 		DEDC63BC165167A600C071EF /* ScoreKeeprMac */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A85AD166EA88100F56B39 /* Model */,
 				DEDC63C8165167A600C071EF /* AppDelegate.h */,
 				DEDC63C9165167A600C071EF /* AppDelegate.m */,
 				DEDC63CB165167A700C071EF /* MainMenu.xib */,
 				DEDC63BD165167A600C071EF /* Supporting Files */,
-				DEC9DDB4166CE10F0074908C /* Match.h */,
-				DEC9DDB5166CE10F0074908C /* Match.m */,
-				DEC9DDB8166CE1510074908C /* Team.h */,
-				DEC9DDB9166CE1510074908C /* Team.m */,
 			);
 			path = ScoreKeeprMac;
 			sourceTree = "<group>";

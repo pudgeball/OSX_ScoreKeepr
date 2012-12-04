@@ -30,7 +30,6 @@
 	if (![_server start:&error])
 	{
 		NSLog(@"Error starting server: %@", error);
-		
 	}
 }
 
