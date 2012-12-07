@@ -32,10 +32,8 @@
 
 - (NSNumber *)calculateTeamScore:(Team *)team
 {
-	//int score = ( [team isAutonomousWinner] * AUTONOMOUS ) + (team.greenBallOver * GREEN_BALL_OVER );
-	//int score = [[team.greenBallOver * GREEN_BALL_OVER] int] + team.greenBall * GREEN_BALL + team.football * FOOTBALL;
+	int score = ([team isAutonomousWinner] * 15) + ([[team greenBallOver] intValue] * 5) + ([[team greenBall] intValue] * 1) + ([[team football] intValue] * 10) + ([[team basketBall] intValue] * 10);
 	
-	int score = 0;
 	return [NSNumber numberWithInt:score];
 }
 

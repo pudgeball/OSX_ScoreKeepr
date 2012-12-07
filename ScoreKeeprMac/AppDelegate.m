@@ -33,15 +33,10 @@
 	}
 }
 
-- (IBAction)sendWelcome:(id)sender
+- (void)applicationWillTerminate:(NSNotification *)notification
 {
-	
-	NSLog(@"sending welcome");
-	NSString *welcome = @"BeginMatch";
-	
-	NSData *data = [welcome dataUsingEncoding:NSUTF8StringEncoding];
-	NSError *error = nil;
-	[_server sendData:data error:&error];
+	NSLog(@"Quitting...");
+	[_server stop];
 }
 
 - (IBAction)sendStartMatch:(id)sender
@@ -106,12 +101,22 @@
 		}
 		else if ([[message objectForKey:@"Type"] isEqualToString:@"InGame"])
 		{
-			_match.redTeam.greenBallOver = [[message objectForKey:@"Red"] objectForKey:@"Score"];
-			_match.blueTeam.greenBallOver = [[message objectForKey:@"Blue"] objectForKey:@"Score"];
+			_match.redTeam.greenBallOver = [message objectForKey:@"Red"];
+			_match.blueTeam.greenBallOver = [message objectForKey:@"Blue"];
 		}
 		else if ([[message objectForKey:@"Type"] isEqualToString:@"AfterGame"])
 		{
+			_match.redTeam.greenBall = [[message objectForKey:@"Red"] objectForKey:@"GreenBalls"];
+			_match.redTeam.football = [[message objectForKey:@"Red"] objectForKey:@"FootBalls"];
+			_match.redTeam.basketBall = [[message objectForKey:@"Red"] objectForKey:@"BasketBalls"];
 			
+			_match.blueTeam.greenBall = [[message objectForKey:@"Blue"] objectForKey:@"GreenBalls"];
+			_match.blueTeam.football = [[message objectForKey:@"Blue"] objectForKey:@"FootBalls"];
+			_match.blueTeam.basketBall = [[message objectForKey:@"Blue"] objectForKey:@"BasketBalls"];
+			
+			NSDictionary *overallResults = [_match calculateMatchScore];
+			[_lblRedScore setStringValue: [overallResults objectForKey:@"RedScore"]];
+			[_lblBlueScore setStringValue: [overallResults objectForKey:@"BlueScore"]];
 		}
 	}
 	else

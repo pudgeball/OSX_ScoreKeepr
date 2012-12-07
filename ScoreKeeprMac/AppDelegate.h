@@ -23,7 +23,6 @@
 @property (strong, nonatomic) NSMutableArray *clients;
 @property (strong, nonatomic) Server *server;
 
-- (IBAction)sendWelcome:(id)sender;
 - (IBAction)sendStartMatch:(id)sender;
 
 @end
